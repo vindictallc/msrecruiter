@@ -9,7 +9,7 @@ public class ListViewer extends JFrame {
     JButton search = new JButton("Search");
 
     public ListViewer() {
-        super("MilSpouse Finder");
+        super("MilSpouse Recruiter");
         setSize(1200, 800);
         setLookAndFeel();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
