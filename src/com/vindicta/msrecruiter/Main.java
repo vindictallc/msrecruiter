@@ -3,6 +3,7 @@ package com.vindicta.msrecruiter;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
+import javax.swing.*;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
@@ -11,6 +12,9 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        // Start GUI
+        ListViewer lv = new ListViewer();
+
 	    // Get directory name
         String directoryName = "resource/";
 
